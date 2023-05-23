@@ -8,10 +8,7 @@
     background-image: url(/image/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     height: 10px;
-    
     font-family: 'Poppins', sans-serif;
-    /* background-color: hsl(193, 100%,96%); */
-    
     }
     .nav-bar{
     margin-left: -190px;
@@ -40,9 +37,9 @@
         height: 40px;
     }
     .home{
+        width: 1440px;
         background-repeat: repeat;
-        height: 600px;
-        padding-left: 60px;
+        height: 570px;
     }
     button:hover{
         background-color: hsl(322, 100%, 66%);
@@ -51,11 +48,10 @@
         filter: opacity(0.5);
         transition: 0.5s ease all;}
     .container {
+        width: 1440px;
         display: flex;
-        margin-top: 80px;
-        margin-bottom: 20px;
-        padding-left: 200px;
-    align-content: space-between;
+        align-content: space-between;
+        background-color: hsl(193, 100%,96%);
     }
     .left-side{
         
@@ -93,7 +89,7 @@
     }    
     .page{
     background-color: white;
-    width: 1349px;
+    width: 1440px;
     padding-top: 20px;
     padding-left: 60px;
     }
@@ -246,8 +242,7 @@
         cursor: pointer;
     }
     footer{
-
-        width:1349px;
+        width: 1440px;
         height: 380px;
         display: flex;
         background-color: #00252e;
@@ -302,38 +297,40 @@
         }
         .nav-bar{
             width:60px;
-            margin-top: 10px;
-            margin-left: 10px;
+            margin-top: 5px;
+            margin-left:  -226px;
     }
     .nav-bar img {    
-        width: 117px;
+        width: 107px;
         position: relative;
         left:  0;
-        bottom: 0;
+        bottom: 1px;
     }
     .nav-bar button{
         width: 100px;
         height: 31px;
         position: relative;
-        bottom: 45px;
-        left: 173px;
-        margin: 5px;
+        bottom: 40px;
+        left: 180px;
+        margin: 9px;
+        z-index: 1;
     }
-    .container{
+    .container{        
+        width: 375px;
         display: block;
-        margin: 0;
         position: relative;
-        bottom: 120px;
-        
-        padding-left: 80px;
+        bottom: 30px;
+        right: 0;
     }
     .home{
+        width: 466px;
         height: 650px;
-        padding-left: 80px;
+        background-color: hsl(193, 100%,96%);
     }
     .left-side{
         position: relative;
-        right: 40px;
+        right: 10px;
+        bottom: 50px;
         width: 20px;
     }
     .left-side h1 {
@@ -351,14 +348,14 @@
         text-align: center;
         position: relative;
         right: 5px;
-        top: 103px;
+        top: 87px;
     }
     .left-side button{
         width: 210px;
         height: 40px;
         position: relative;
         left: 15px;
-        top: 241px;
+        top: 80px;
     
     }
     .right-side{
@@ -367,25 +364,25 @@
         left: 10px;
     }
     .right-side img {
-        width: 262px;
-        height: 203px;
+        width: 273px;
+        height: 227px;
         position: relative;
-        left: 9px;
-        top: 221px;
+        left: 34px;
+        top: 226px;
     }
     
     .page{
-        width: 316px;
-        margin-left: 35px;
-        padding-right: 100px;
+        height: 1806px;
+        width: 375px;
         background-color: #ffffff;
     }
     .first{        
         width: 273px;
         height: 503px;
         display: block;
-        margin-left: 10px;
         background-color: #ffffff;
+        position: relative;
+        right: 30px;
     }
     .first img{ 
         margin: 0;
@@ -419,8 +416,9 @@
         width: 265px;
         height: 503px;
         display: block;
-        margin-left: 10px;
         background-color: #ffffff;
+        position: relative;
+        right: 30px;
     }
     .second img{ 
         margin: 0;
@@ -450,8 +448,9 @@
         width: 265px;
         height: 503px;
         display: block;
-        margin-left: 10px;
         background-color: #ffffff;
+        position: relative;
+        right: 30px;
     }
     .third img{ 
         margin: 0;
@@ -480,7 +479,8 @@
     .boxup{
         width: 257px;
         position: relative;
-        right: 330px;
+        right: 349px;
+        z-index: 1;
     }
     .boxup h2{
         font-size: 13px;
@@ -493,24 +493,30 @@
         top: 27px;
         width: 172px;
         position: relative;
-        right: 147px;
+        right: 138px;
         font-weight: 600;
         font-size: revert;
     }
     footer{
-        width: 375px;
-        height: 608px;
+        width: 458px;
+        height: auto;
         display: block;
         color: #ffffff;
-        
-        padding-bottom: 0;
-        margin: 0;
+        position: relative;
+        left: 0;
     }
 
-    
+    .footer{
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right:  -70px;
+    }
     .footer img {
         position: relative;
-        left: 16px;
+        left: -38px;
+        bottom: 10px;
     }
     .sociali-media  img{    
         position: relative;
@@ -537,9 +543,9 @@
     
     .icons img{     
         display: block;
-        margin-top: 33px;
+        margin-top: 48px;
         position: relative;
-        left: 132px;
-        bottom: 152px
+        left: 33px;
+        bottom: 471px;
         }
     }
